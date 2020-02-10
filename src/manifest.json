@@ -5,12 +5,12 @@
     "versionName": "1.0.0",
     "versionCode": "100",
 	"transformPx":false,
-    "app-plus": { /* 5+App特有相关 */
-        "modules": { /* 模块配置 */
+    "app-plus": { 
+        "modules": { 
 
         },
-        "distribute": { /* 应用发布信息 */
-            "android": { /* android打包配置 */
+        "distribute": { 
+            "android": { 
                 "permissions": ["<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
                     "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
                     "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
@@ -35,21 +35,21 @@
                     "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
                 ]
             },
-            "ios": { /* ios打包配置 */
+            "ios": { 
 
             },
-            "sdkConfigs": { /* SDK配置 */
+            "sdkConfigs": { 
 
             }
         },
         "usingComponents":true
     },
-    "quickapp": { /* 快应用特有相关 */
+    "quickapp": { 
 
     },
-    "mp-weixin": { /* 小程序特有相关 */
+    "mp-weixin": { 
         "usingComponents":true,
-        "appid": "",
+        "appid": "wx43ffe0e3f752e87d",
         "setting" : {
         	"urlCheck" : true
         }
