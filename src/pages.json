@@ -2,7 +2,17 @@
 	"pages": [
 		{
 			"path":"pages/login/index",
-			"navigationBarTitleText": ""
+			"style":{
+				"navigationBarTitleText": ""
+			}
+			
+		},
+		{
+			"path":"pages/pay/index",
+			"style":{
+				"navigationBarTitleText": "支付"
+			}
+			
 		},
 		{
 			"path":"pages/home/index"
@@ -22,7 +32,11 @@
 		},
 		{
 			"path":"pages/search/index"
+		},
+		{
+			"path":"pages/play/index"
 		}
+		
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
